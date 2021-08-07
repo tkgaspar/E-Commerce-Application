@@ -1409,3 +1409,411 @@ Content-Length: 65
 2021-08-07 11:05:22.504 DEBUG 15140 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323522504 sessioncount 0
 2021-08-07 11:05:22.506 DEBUG 15140 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
 2021-08-07 11:05:52.298 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:06:22.301 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:06:22.572 DEBUG 15140 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323582572 sessioncount 0
+2021-08-07 11:06:22.574 DEBUG 15140 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2021-08-07 11:06:52.307 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:07:22.311 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:07:22.629 DEBUG 15140 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323642629 sessioncount 0
+2021-08-07 11:07:22.629 DEBUG 15140 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-08-07 11:07:52.317 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:08:22.323 DEBUG 15140 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:08:30.543  INFO 8160 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Progi-apa with PID 8160 (started by Arpad in C:\Users\Arpad\OneDrive\Documents\Udacity java web development\E-Commerce-application\nd035-c4-Security-and-DevOps)
+2021-08-07 11:08:30.549  INFO 8160 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-08-07 11:08:32.208  INFO 8160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-07 11:08:32.336  INFO 8160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 4 repository interfaces.
+2021-08-07 11:08:33.425  INFO 8160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c39ea502] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07 11:08:34.214  INFO 8160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 11:08:34.262  INFO 8160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 11:08:34.263  INFO 8160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-07 11:08:34.614  INFO 8160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 11:08:34.614  INFO 8160 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3932 ms
+2021-08-07 11:08:35.409  INFO 8160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 11:08:35.610  INFO 8160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 11:08:35.758  INFO 8160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-07 11:08:35.844  INFO 8160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-08-07 11:08:35.847  INFO 8160 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-07 11:08:36.054  INFO 8160 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-08-07 11:08:36.414  INFO 8160 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-07 11:08:37.562  INFO 8160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07 11:08:38.706  WARN 8160 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-07 11:08:38.869  INFO 8160 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8e77c5b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b0e5d5f, org.springframework.security.web.header.HeaderWriterFilter@c7269ad, org.springframework.web.filter.CorsFilter@776a3365, org.springframework.security.web.authentication.logout.LogoutFilter@4bab804f, com.example.demo.Security.JWTAuthenticationFilter@c0521e5, com.example.demo.Security.JWTAuthenticationVerficationFilter@2e20c20b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42536da6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5213b887, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d167630, org.springframework.security.web.session.SessionManagementFilter@38445703, org.springframework.security.web.access.ExceptionTranslationFilter@1d67348a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41289e88]
+2021-08-07 11:08:39.225  INFO 8160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07 11:08:39.778  INFO 8160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 11:08:39.818  INFO 8160 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 10.354 seconds (JVM running for 11.699)
+2021-08-07 11:09:40.605  INFO 8160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 11:09:40.605  INFO 8160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 11:09:40.612  INFO 8160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-08-07 11:09:40.916  INFO 8160 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : |A new User has been created| @tkanna@
+2021-08-07 11:09:40.917 DEBUG 8160 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : |The username of the user created is| @tkanna@
+2021-08-07 11:09:40.933 DEBUG 8160 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-08-07 11:09:40.934 DEBUG 8160 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.demo.model.persistence.User@793ffff3]
+2021-08-07 11:09:40.941 DEBUG 8160 --- [http-nio-8080-exec-1] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@56be9ebd
+2021-08-07 11:09:40.944 DEBUG 8160 --- [http-nio-8080-exec-1] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2021-08-07 11:09:40.945 DEBUG 8160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-07 11:09:40.948 DEBUG 8160 --- [http-nio-8080-exec-1] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2021-08-07 11:09:40.950 DEBUG 8160 --- [http-nio-8080-exec-1] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read from buffer: [0]
+2021-08-07 11:09:40.950 DEBUG 8160 --- [http-nio-8080-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read direct from socket: [0]
+2021-08-07 11:09:40.951 DEBUG 8160 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Status in: [OPEN_READ], State out: [OPEN]
+2021-08-07 11:09:46.991 DEBUG 8160 --- [http-nio-8080-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read from buffer: [0]
+2021-08-07 11:09:46.992 DEBUG 8160 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read direct from socket: [312]
+2021-08-07 11:09:46.992 DEBUG 8160 --- [http-nio-8080-exec-3] o.a.coyote.http11.Http11InputBuffer      : Received [POST /login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.1
+Accept: */*
+Postman-Token: 5c7e7a9f-6a66-4689-ab80-6a6e472cbcd7
+Host: localhost:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 53
+
+ {
+"username": "tkanna",
+"password": "annacica"
+ }]
+2021-08-07 11:09:46.993 DEBUG 8160 --- [http-nio-8080-exec-3] o.a.c.authenticator.AuthenticatorBase    : Security checking request POST /login
+2021-08-07 11:09:46.993 DEBUG 8160 --- [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2021-08-07 11:09:46.993 DEBUG 8160 --- [http-nio-8080-exec-3] o.a.c.authenticator.AuthenticatorBase    :  Not subject to any constraint
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 1 of 13 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 2 of 13 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 3 of 13 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 4 of 13 in additional filter chain; firing Filter: 'CorsFilter'
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 5 of 13 in additional filter chain; firing Filter: 'LogoutFilter'
+2021-08-07 11:09:46.994 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', GET]
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /login' doesn't match 'GET /logout'
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', POST]
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/logout'
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', PUT]
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /login' doesn't match 'PUT /logout'
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', DELETE]
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /login' doesn't match 'DELETE /logout'
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : /login at position 6 of 13 in additional filter chain; firing Filter: 'JWTAuthenticationFilter'
+2021-08-07 11:09:46.995 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/login'; against '/login'
+2021-08-07 11:09:46.996 DEBUG 8160 --- [http-nio-8080-exec-3] c.e.d.Security.JWTAuthenticationFilter   : Request is to process authentication
+2021-08-07 11:09:46.997 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.authentication.ProviderManager     : Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2021-08-07 11:09:47.086 DEBUG 8160 --- [http-nio-8080-exec-3] tor$SharedEntityManagerInvocationHandler : Creating new EntityManager for shared EntityManager invocation
+2021-08-07 11:09:47.088 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.q.c.internal.CriteriaQueryImpl       : Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.username=:param0
+2021-08-07 11:09:47.102 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@2225d84e
+2021-08-07 11:09:47.102  INFO 8160 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-07 11:09:47.122 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.internal.ast.QueryTranslatorImpl   : parse() - HQL: select generatedAlias0 from com.example.demo.model.persistence.User as generatedAlias0 where generatedAlias0.username=:param0
+2021-08-07 11:09:47.126 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2021-08-07 11:09:47.130 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.internal.ast.QueryTranslatorImpl   : --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  |  \-[IDENT] Node: 'example'
+    |  |     |  |  |  |  \-[IDENT] Node: 'demo'
+    |  |     |  |  |  \-[IDENT] Node: 'model'
+    |  |     |  |  \-[IDENT] Node: 'persistence'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'username'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-08-07 11:09:47.146 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select << begin [level=1, statement=select]
+2021-08-07 11:09:47.156 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.tree.FromElement    : FromClause{level=1} : com.example.demo.model.persistence.User (generatedAlias0) -> user0_
+2021-08-07 11:09:47.157 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.i.ast.tree.FromReferenceNode       : Resolved : generatedAlias0 -> user0_.id
+2021-08-07 11:09:47.159 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.i.ast.tree.FromReferenceNode       : Resolved : generatedAlias0 -> user0_.id
+2021-08-07 11:09:47.160 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.tree.DotNode        : getDataType() : username -> org.hibernate.type.StringType@3d2f7340
+2021-08-07 11:09:47.161 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.i.ast.tree.FromReferenceNode       : Resolved : generatedAlias0.username -> user0_.username
+2021-08-07 11:09:47.162 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select : finishing up [level=1, statement=select]
+2021-08-07 11:09:47.162 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.HqlSqlWalker        : processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} user user0_ ) ( where ( = ( user0_.username user0_.id username ) ? ) ) )
+2021-08-07 11:09:47.169 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.util.JoinProcessor  : Using FROM fragment [user user0_]
+2021-08-07 11:09:47.169 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.antlr.HqlSqlBaseWalker  : select >> end [level=1, statement=select]
+2021-08-07 11:09:47.170 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.internal.ast.QueryTranslatorImpl   : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_3_' {alias=generatedAlias0, className=com.example.demo.model.persistence.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.example.demo.model.persistence.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path=generatedAlias0.username,tableAlias=user0_,className=com.example.demo.model.persistence.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=generatedAlias0, className=com.example.demo.model.persistence.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@3d2f7340}
+
+2021-08-07 11:09:47.170 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2021-08-07 11:09:47.174 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.internal.ast.QueryTranslatorImpl   : HQL: select generatedAlias0 from com.example.demo.model.persistence.User as generatedAlias0 where generatedAlias0.username=:param0
+2021-08-07 11:09:47.175 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.h.internal.ast.QueryTranslatorImpl   : SQL: select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+2021-08-07 11:09:47.175 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.hql.internal.ast.ErrorTracker        : throwQueryException() : no errors
+2021-08-07 11:09:47.207 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+2021-08-07 11:09:47.210 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:09:47.213 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.User#1]
+2021-08-07 11:09:47.214 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+2021-08-07 11:09:47.221 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.l.p.e.p.i.ResultSetProcessorImpl     : Starting ResultSet row #0
+2021-08-07 11:09:47.222 DEBUG 8160 --- [http-nio-8080-exec-3] l.p.e.p.i.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-08-07 11:09:47.224 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:09:47.230 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Loading entity: [com.example.demo.model.persistence.User#1]
+2021-08-07 11:09:47.231 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.cart_id=?
+2021-08-07 11:09:47.232 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.Cart#1], EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:09:47.232 DEBUG 8160 --- [http-nio-8080-exec-3] org.hibernate.loader.Loader              : Done entity load
+2021-08-07 11:09:47.233 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:09:47.233 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2021-08-07 11:09:47.234 DEBUG 8160 --- [http-nio-8080-exec-3] .l.e.p.AbstractLoadPlanBasedEntityLoader : Done entity load : com.example.demo.model.persistence.Cart#1
+2021-08-07 11:09:47.235 DEBUG 8160 --- [http-nio-8080-exec-3] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.User#1]
+2021-08-07 11:09:47.377 DEBUG 8160 --- [http-nio-8080-exec-3] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@56be9ebd
+2021-08-07 11:09:47.377 DEBUG 8160 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2021-08-07 11:09:47.378 DEBUG 8160 --- [http-nio-8080-exec-3] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read from buffer: [0]
+2021-08-07 11:09:47.379 DEBUG 8160 --- [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read direct from socket: [0]
+2021-08-07 11:09:47.379 DEBUG 8160 --- [http-nio-8080-exec-3] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Status in: [OPEN_READ], State out: [OPEN]
+2021-08-07 11:10:05.764 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:10:19.527 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read from buffer: [0]
+2021-08-07 11:10:19.528 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read direct from socket: [722]
+2021-08-07 11:10:19.528 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.coyote.http11.Http11InputBuffer      : Received [POST /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ HTTP/1.1
+Authorization: BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.28.1
+Accept: */*
+Postman-Token: 167eb19c-94a7-4089-a8e7-a14cefd81ca8
+Host: localhost:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 65
+
+{
+    "username":"tkanna",
+    "itemId":2,
+    "quantity":2
+}]
+2021-08-07 11:10:19.529 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    : Security checking request POST /api/order/submit/tkanna
+2021-08-07 11:10:19.529 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2021-08-07 11:10:19.529 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.authenticator.AuthenticatorBase    :  Not subject to any constraint
+2021-08-07 11:10:19.529 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.tomcat.util.http.Parameters   : Decoding query null UTF-8
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.tomcat.util.http.Parameters   : Start processing with input [Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ]
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 1 of 13 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 2 of 13 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 3 of 13 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2021-08-07 11:10:19.530 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 4 of 13 in additional filter chain; firing Filter: 'CorsFilter'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 5 of 13 in additional filter chain; firing Filter: 'LogoutFilter'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', GET]
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /api/order/submit/tkanna' doesn't match 'GET /logout'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', POST]
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/api/order/submit/tkanna'; against '/logout'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', PUT]
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /api/order/submit/tkanna' doesn't match 'PUT /logout'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', DELETE]
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'POST /api/order/submit/tkanna' doesn't match 'DELETE /logout'
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2021-08-07 11:10:19.531 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 6 of 13 in additional filter chain; firing Filter: 'JWTAuthenticationFilter'
+2021-08-07 11:10:19.532 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/api/order/submit/tkanna'; against '/login'
+2021-08-07 11:10:19.532 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 7 of 13 in additional filter chain; firing Filter: 'JWTAuthenticationVerficationFilter'
+2021-08-07 11:10:19.551 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 8 of 13 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2021-08-07 11:10:19.551 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 9 of 13 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2021-08-07 11:10:19.551 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 10 of 13 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2021-08-07 11:10:19.551 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@33fc4253: Principal: tkanna; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities'
+2021-08-07 11:10:19.551 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 11 of 13 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] s.CompositeSessionAuthenticationStrategy : Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@7646c9f5
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 12 of 13 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ at position 13 of 13 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/api/order/submit/tkanna'; against '/api/user/create'
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ; Attributes: [authenticated]
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@33fc4253: Principal: tkanna; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@17f7d7, returned: 1
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2021-08-07 11:10:19.552 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2021-08-07 11:10:19.553 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : /api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ reached end of additional filter chain; proceeding with original chain
+2021-08-07 11:10:19.553 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/order/submit/tkanna?Authorization=BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ", parameters={masked}
+2021-08-07 11:10:19.554 DEBUG 8160 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.example.demo.model.persistence.UserOrder> com.example.demo.controllers.OrderController.submit(java.lang.String)
+2021-08-07 11:10:19.554 DEBUG 8160 --- [http-nio-8080-exec-4] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2021-08-07 11:10:19.558 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.q.c.internal.CriteriaQueryImpl       : Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.username=:param0
+2021-08-07 11:10:19.559 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+2021-08-07 11:10:19.559 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.User#1]
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.l.p.e.p.i.ResultSetProcessorImpl     : Starting ResultSet row #0
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] l.p.e.p.i.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Loading entity: [com.example.demo.model.persistence.User#1]
+2021-08-07 11:10:19.560 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.cart_id=?
+2021-08-07 11:10:19.561 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.Cart#1], EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:10:19.562 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Done entity load
+2021-08-07 11:10:19.562 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:10:19.563 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2021-08-07 11:10:19.563 DEBUG 8160 --- [http-nio-8080-exec-4] .l.e.p.AbstractLoadPlanBasedEntityLoader : Done entity load : com.example.demo.model.persistence.Cart#1
+2021-08-07 11:10:19.563 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.User#1]
+2021-08-07 11:10:19.565 DEBUG 8160 --- [http-nio-8080-exec-4] stractLoadPlanBasedCollectionInitializer : Loading collection: [com.example.demo.model.persistence.Cart.items#1]
+2021-08-07 11:10:19.565 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select items0_.cart_id as cart_id1_1_0_, items0_.items_id as items_id2_1_0_, item1_.id as id1_2_1_, item1_.description as descript2_2_1_, item1_.name as name3_2_1_, item1_.price as price4_2_1_ from cart_items items0_ inner join item item1_ on items0_.items_id=item1_.id where items0_.cart_id=?
+2021-08-07 11:10:19.566 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.l.p.e.p.i.ResultSetProcessorImpl     : Preparing collection intializer : [com.example.demo.model.persistence.Cart.items#1]
+2021-08-07 11:10:19.568 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.l.internal.CollectionLoadContext   : 1 collections were found in result set for role: com.example.demo.model.persistence.Cart.items
+2021-08-07 11:10:19.569 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.l.internal.CollectionLoadContext   : Collection fully initialized: [com.example.demo.model.persistence.Cart.items#1]
+2021-08-07 11:10:19.569 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.l.internal.CollectionLoadContext   : 1 collections initialized for role: com.example.demo.model.persistence.Cart.items
+2021-08-07 11:10:19.569 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2021-08-07 11:10:19.569 DEBUG 8160 --- [http-nio-8080-exec-4] stractLoadPlanBasedCollectionInitializer : Done loading collection
+2021-08-07 11:10:19.570 DEBUG 8160 --- [http-nio-8080-exec-4] stomAnnotationTransactionAttributeSource : Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2021-08-07 11:10:19.570 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Found thread-bound EntityManager [SessionImpl(297963811<open>)] for JPA transaction
+2021-08-07 11:10:19.570 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2021-08-07 11:10:19.570 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-08-07 11:10:19.570 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.t.internal.TransactionImpl         : begin
+2021-08-07 11:10:19.571 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5b26f898]
+2021-08-07 11:10:19.571 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.loader.WebappClassLoaderBase       :     findClass(java.lang.ObjectCustomizer)
+2021-08-07 11:10:19.573 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-08-07 11:10:19.574 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.loader.WebappClassLoaderBase       :     findClass(com.example.demo.model.persistence.UserOrderCustomizer)
+2021-08-07 11:10:19.575 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.c.loader.WebappClassLoaderBase       :     --> Returning ClassNotFoundException
+2021-08-07 11:10:19.576 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+2021-08-07 11:10:19.576 DEBUG 8160 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : insert into user_order (id, total, user_id) values (null, ?, ?)
+2021-08-07 11:10:19.577 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.id.IdentifierGeneratorHelper         : Natively generated identity: 1
+2021-08-07 11:10:19.577 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2021-08-07 11:10:19.578 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Initiating transaction commit
+2021-08-07 11:10:19.578 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Committing JPA transaction on EntityManager [SessionImpl(297963811<open>)]
+2021-08-07 11:10:19.578 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.t.internal.TransactionImpl         : committing
+2021-08-07 11:10:19.578 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.i.AbstractFlushingEventListener    : Processing flush-time cascades
+2021-08-07 11:10:19.578 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.i.AbstractFlushingEventListener    : Dirty checking collections
+2021-08-07 11:10:19.580 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.engine.internal.Collections  : Collection found: [com.example.demo.model.persistence.Cart.items#1], was: [com.example.demo.model.persistence.Cart.items#1] (initialized)
+2021-08-07 11:10:19.580 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.engine.internal.Collections  : Collection found: [com.example.demo.model.persistence.UserOrder.items#1], was: [<unreferenced>] (initialized)
+2021-08-07 11:10:19.581 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2021-08-07 11:10:19.582 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.e.i.AbstractFlushingEventListener    : Flushed: 1 (re)creations, 0 updates, 0 removals to 2 collections
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.internal.util.EntityPrinter  : Listing entities:
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.internal.util.EntityPrinter  : com.example.demo.model.persistence.UserOrder{total=null, id=1, items=[], user=com.example.demo.model.persistence.User#1}
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.internal.util.EntityPrinter  : com.example.demo.model.persistence.Cart{total=null, id=1, items=[], user=com.example.demo.model.persistence.User#1}
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.hibernate.internal.util.EntityPrinter  : com.example.demo.model.persistence.User{password=$2a$10$LyzGVLWE7zzxx.9TyUJ19.ZFyul7noJ0KI9Cx3TR2rhZ6DiPuRg.C, id=1, cart=com.example.demo.model.persistence.Cart#1, username=tkanna}
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.p.c.AbstractCollectionPersister      : Inserting collection: [com.example.demo.model.persistence.UserOrder.items#1]
+2021-08-07 11:10:19.583 DEBUG 8160 --- [http-nio-8080-exec-4] o.h.p.c.AbstractCollectionPersister      : Collection was empty
+2021-08-07 11:10:19.584 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.orm.jpa.JpaTransactionManager        : Not closing pre-bound JPA EntityManager after transaction
+2021-08-07 11:10:19.584  INFO 8160 --- [http-nio-8080-exec-4] c.e.demo.controllers.OrderController     : |Successful order submission| @tkanna@
+2021-08-07 11:10:19.591 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-08-07 11:10:19.591 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.demo.model.persistence.UserOrder@a084205]
+2021-08-07 11:10:19.594 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@56be9ebd
+2021-08-07 11:10:19.595 DEBUG 8160 --- [http-nio-8080-exec-4] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2021-08-07 11:10:19.596 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-07 11:10:19.596 DEBUG 8160 --- [http-nio-8080-exec-4] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2021-08-07 11:10:19.596 DEBUG 8160 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2021-08-07 11:10:19.596 DEBUG 8160 --- [http-nio-8080-exec-4] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read from buffer: [0]
+2021-08-07 11:10:19.597 DEBUG 8160 --- [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Read direct from socket: [0]
+2021-08-07 11:10:19.597 DEBUG 8160 --- [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@49a85a4:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:54998]], Status in: [OPEN_READ], State out: [OPEN]
+2021-08-07 11:10:35.595 DEBUG 8160 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323835594 sessioncount 0
+2021-08-07 11:10:35.596 DEBUG 8160 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2021-08-07 11:10:35.770 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:11:05.768 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:11:20.175 DEBUG 8160 --- [http-nio-8080-exec-5] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-5] latch=1
+2021-08-07 11:11:20.176 DEBUG 8160 --- [http-nio-8080-exec-5] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[closed]] closed
+2021-08-07 11:11:25.602 DEBUG 8160 --- [http-nio-8080-Acceptor-0] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor-0] latch=1
+2021-08-07 11:11:25.602 DEBUG 8160 --- [http-nio-8080-Acceptor-0] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8080-Acceptor-0] latch=2
+2021-08-07 11:11:25.603 DEBUG 8160 --- [http-nio-8080-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@1e208dea:org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50669]], Read from buffer: [0]
+2021-08-07 11:11:25.603 DEBUG 8160 --- [http-nio-8080-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@1e208dea:org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50669]], Read direct from socket: [407]
+2021-08-07 11:11:25.604 DEBUG 8160 --- [http-nio-8080-exec-7] o.a.coyote.http11.Http11InputBuffer      : Received [GET /api/user/tkanna HTTP/1.1
+Authorization: BearereyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0a2FubmEiLCJleHAiOjE2MjkxODc3ODd9.4bxl5uR-FhymR8LJVoNNdWNxHGX9r9TR4CMgqRZqoUyac-rUYT4qUSPgRzdPAVMH-UlHUkKNt1MgnX3NQj-6JQ
+User-Agent: PostmanRuntime/7.28.1
+Accept: */*
+Postman-Token: 08594d6c-b3c8-496b-8443-9c47e5d1c7af
+Host: localhost:8080
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+]
+2021-08-07 11:11:25.604 DEBUG 8160 --- [http-nio-8080-exec-6] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5672deb8:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50668]], Read from buffer: [0]
+2021-08-07 11:11:25.605 DEBUG 8160 --- [http-nio-8080-exec-7] org.apache.tomcat.util.http.Parameters   : Set query string encoding to UTF-8
+2021-08-07 11:11:25.605 DEBUG 8160 --- [http-nio-8080-exec-7] o.a.c.authenticator.AuthenticatorBase    : Security checking request GET /api/user/tkanna
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase      :   No applicable constraints defined
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.a.c.authenticator.AuthenticatorBase    :  Not subject to any constraint
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 1 of 13 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 2 of 13 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 3 of 13 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 4 of 13 in additional filter chain; firing Filter: 'CorsFilter'
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 5 of 13 in additional filter chain; firing Filter: 'LogoutFilter'
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', GET]
+2021-08-07 11:11:25.606 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Checking match of request : '/api/user/tkanna'; against '/logout'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', POST]
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /api/user/tkanna' doesn't match 'POST /logout'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', PUT]
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /api/user/tkanna' doesn't match 'PUT /logout'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : Trying to match using Ant [pattern='/logout', DELETE]
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /api/user/tkanna' doesn't match 'DELETE /logout'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.web.util.matcher.OrRequestMatcher  : No matches found
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 6 of 13 in additional filter chain; firing Filter: 'JWTAuthenticationFilter'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /api/user/tkanna' doesn't match 'POST /login'
+2021-08-07 11:11:25.607 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 7 of 13 in additional filter chain; firing Filter: 'JWTAuthenticationVerficationFilter'
+2021-08-07 11:11:25.608 DEBUG 8160 --- [http-nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1248) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1183) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:731) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:352) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-08-07 11:11:25.608 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 8 of 13 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 9 of 13 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@5672deb8:org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50668]], Status in: [OPEN_READ], State out: [CLOSED]
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 10 of 13 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@33fc4253: Principal: tkanna; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 11 of 13 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] s.CompositeSessionAuthenticationStrategy : Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@7646c9f5
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 12 of 13 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna at position 13 of 13 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.u.matcher.AntPathRequestMatcher  : Request 'GET /api/user/tkanna' doesn't match 'POST /api/user/create'
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Secure object: FilterInvocation: URL: /api/user/tkanna; Attributes: [authenticated]
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@33fc4253: Principal: tkanna; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.access.vote.AffirmativeBased       : Voter: org.springframework.security.web.access.expression.WebExpressionVoter@17f7d7, returned: 1
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorization successful
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : RunAsManager did not change Authentication object
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : /api/user/tkanna reached end of additional filter chain; proceeding with original chain
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] org.apache.tomcat.util.http.Parameters   : Set encoding to UTF-8
+2021-08-07 11:11:25.610 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/user/tkanna", parameters={}
+2021-08-07 11:11:25.611 DEBUG 8160 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<com.example.demo.model.persistence.User> com.example.demo.controllers.UserController.findByUserName(java.lang.String)
+2021-08-07 11:11:25.611 DEBUG 8160 --- [http-nio-8080-exec-7] o.j.s.OpenEntityManagerInViewInterceptor : Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2021-08-07 11:11:25.612 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.q.c.internal.CriteriaQueryImpl       : Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.username=:param0
+2021-08-07 11:11:25.613 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+2021-08-07 11:11:25.614 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:11:25.614 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.User#1]
+2021-08-07 11:11:25.614 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.l.p.e.p.i.ResultSetProcessorImpl     : Starting ResultSet row #0
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] l.p.e.p.i.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.loader.Loader              : Loading entity: [com.example.demo.model.persistence.User#1]
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.cart_id=?
+2021-08-07 11:11:25.615 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.loader.Loader              : Result row: EntityKey[com.example.demo.model.persistence.Cart#1], EntityKey[com.example.demo.model.persistence.User#1]
+2021-08-07 11:11:25.616 DEBUG 8160 --- [http-nio-8080-exec-7] org.hibernate.loader.Loader              : Done entity load
+2021-08-07 11:11:25.616 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.Cart#1]
+2021-08-07 11:11:25.616 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2021-08-07 11:11:25.616 DEBUG 8160 --- [http-nio-8080-exec-7] .l.e.p.AbstractLoadPlanBasedEntityLoader : Done entity load : com.example.demo.model.persistence.Cart#1
+2021-08-07 11:11:25.616 DEBUG 8160 --- [http-nio-8080-exec-7] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [com.example.demo.model.persistence.User#1]
+2021-08-07 11:11:25.617 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-08-07 11:11:25.617 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.demo.model.persistence.User@4b0ff269]
+2021-08-07 11:11:25.617 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@56be9ebd
+2021-08-07 11:11:25.618 DEBUG 8160 --- [http-nio-8080-exec-7] o.j.s.OpenEntityManagerInViewInterceptor : Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2021-08-07 11:11:25.609 DEBUG 8160 --- [http-nio-8080-exec-6] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-6] latch=2
+2021-08-07 11:11:25.621 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-07 11:11:25.621 DEBUG 8160 --- [http-nio-8080-exec-7] o.s.s.w.a.ExceptionTranslationFilter     : Chain processed normally
+2021-08-07 11:11:25.621 DEBUG 8160 --- [http-nio-8080-exec-6] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@7693d6e4:java.nio.channels.SocketChannel[closed]] closed
+2021-08-07 11:11:25.621 DEBUG 8160 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+2021-08-07 11:11:25.623 DEBUG 8160 --- [http-nio-8080-exec-7] o.a.tomcat.util.net.SocketWrapperBase    : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@1e208dea:org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50669]], Read from buffer: [0]
+2021-08-07 11:11:25.623 DEBUG 8160 --- [http-nio-8080-exec-7] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@1e208dea:org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50669]], Read direct from socket: [0]
+2021-08-07 11:11:25.623 DEBUG 8160 --- [http-nio-8080-exec-7] o.apache.coyote.http11.Http11Processor   : Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@1e208dea:org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8080 remote=/[0:0:0:0:0:0:0:1]:50669]], Status in: [OPEN_READ], State out: [OPEN]
+2021-08-07 11:11:35.640 DEBUG 8160 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323895640 sessioncount 0
+2021-08-07 11:11:35.641 DEBUG 8160 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2021-08-07 11:11:35.767 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:12:05.772 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-08-07 11:12:26.172 DEBUG 8160 --- [http-nio-8080-exec-8] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-8] latch=1
+2021-08-07 11:12:26.173 DEBUG 8160 --- [http-nio-8080-exec-8] org.apache.tomcat.util.net.NioEndpoint   : Socket: [org.apache.tomcat.util.net.NioChannel@46789034:java.nio.channels.SocketChannel[closed]] closed
+2021-08-07 11:12:35.679 DEBUG 8160 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1628323955679 sessioncount 0
+2021-08-07 11:12:35.679 DEBUG 8160 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2021-08-07 11:12:35.775 DEBUG 8160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
